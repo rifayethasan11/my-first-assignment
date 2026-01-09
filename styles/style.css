@@ -61,7 +61,7 @@
     color: #469165;
 }
 .header-div{
-    background: url(./assets/hero-bg.png);
+    background-image: url(/assets/hero-bg.png);
     padding: 115px 120px 180px 120px ;
     text-align: center;
     height: 674px;
