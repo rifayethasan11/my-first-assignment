@@ -10,7 +10,7 @@
   font-optical-sizing: auto;
 }
 
-/* shared style */
+/* universal style */
 .flex{
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@
 .colour-white{
     color: #FFFFFF;
 }
-/* main styles */
+/* navbar styles */
 .header{
     max-width: 1600px;
     margin: 0 auto;
@@ -130,3 +130,123 @@
     border: none;
     background-color:#30B868;
 }
+
+/* main styles */
+.section1{
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 120px;
+    text-align: center;
+}
+.section1 h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sec1-para{
+   font-size: 16px;
+   color: #627382; 
+}
+.sec1-cards{
+    margin-top: 44px;
+    gap: 24px;
+}
+.sec1-card{
+    border-radius: 8px;
+    padding: 70px 10px;
+    width: 322px;
+    height: 300px;
+    box-shadow: 0.5px 0.5px 10px rgb(210, 206, 206);
+}
+.sec1-card img{
+    background-color: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+.sec1-card h3{
+    margin-bottom: 15px;
+}
+.sec1-card p{
+    color: #627382;
+}
+
+.section2{
+    max-width: 1360px;
+    margin: 0 auto;
+    gap: 60px;
+    align-items: center;
+}
+.sec2-elements{
+    max-width: 700px;
+    height: 400px;
+    text-align: left;
+}
+.sec2-elements h1{
+   max-width: 600px;
+   font-size: 48px;
+   font-weight: bold;
+   color: #001931;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.sec2-elements ul li{
+    list-style: none;
+    margin-top: 8px;
+    color: green;
+}
+.sec2-para{
+    max-width: 470px;
+    margin-bottom: 20px;
+    color: #627382;
+}
+.section3{
+    margin: 50px auto;
+    max-width: 1360px;
+    height: 385px;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+.section3 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sec3-para{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.section3 p,.section3 ul li{
+    color: #627382;
+}
+
+.section3 button{
+     border: none;
+    background-color: #469165;
+    border-radius: 4px;
+    width: 198px;
+    height: 45px;
+    padding: 13px 16px;
+    font-size: 16px;
+    color: #FFFFFF;
+    align-items: center;
+}
+.section3 button:hover{
+    border: 1px solid;
+    color: #469165;
+    background-color: #FFFFFF;
+}
+.challenge-part{
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.challenge-part p{
+   margin-right: 8px;
+}
+
+/* footer styles */
