@@ -61,7 +61,7 @@
     color: #469165;
 }
 .header-div{
-    background: url(/assets/hero-bg.png);
+    background: url(./assets/hero-bg.png);
     padding: 115px 120px 180px 120px ;
     text-align: center;
     height: 674px;
@@ -131,7 +131,6 @@
     background-color:#30B868;
 }
 
-/* main styles */
 .section1{
     margin: 0 auto;
     max-width: 1600px;
@@ -250,3 +249,23 @@
 }
 
 /* footer styles */
+
+footer{
+    margin: 0 auto;
+    background-color: #001931;
+    max-width: 1600px;
+    padding: 120px 120px 20px 120px;
+}
+.footer-elements{
+    align-items: center;
+}
+.footer-links,a{
+    color: #FFFFFF;
+}
+.footer p{
+    margin-top: 80px;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    color: #FFFFFF;
+}
